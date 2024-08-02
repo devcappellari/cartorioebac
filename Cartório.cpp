@@ -66,7 +66,7 @@ int consulta()
 	char cpf[40];
 	char conteudo[200];
 	
-	printf("Digite o CPF a ser consultado: ");
+	printf("Digite o CPF a ser consultado: "); //recebendo qual usuário vai ser consultado
 	scanf("%s",cpf);
 	
 	FILE *file;
